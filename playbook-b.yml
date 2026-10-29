@@ -1,0 +1,15 @@
+site:
+  title: Module B Docs
+  url: http://localhost:5001
+  start_page: module-b::index.adoc
+content:
+  sources:
+  - url: .
+    start_paths:
+    - content/module-b
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+output:
+  dir: build/site-b

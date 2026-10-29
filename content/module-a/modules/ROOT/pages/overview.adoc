@@ -1,0 +1,5 @@
+= Module A Overview
+
+Module A is a separate Antora *component* (`content/module-a`).
+
+Use this pattern when one product site should publish extra topics that another site must omit.

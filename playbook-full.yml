@@ -1,0 +1,16 @@
+site:
+  title: Full Docs (Module A + Module B)
+  url: http://localhost:5000
+  start_page: module-a::index.adoc
+content:
+  sources:
+  - url: .
+    start_paths:
+    - content/module-a
+    - content/module-b
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+output:
+  dir: build/site-full

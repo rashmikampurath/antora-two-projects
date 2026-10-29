@@ -1,0 +1,6 @@
+= Shared Topics
+
+These pages live in Module B, so they ship with both sites.
+
+Keep cross-references inside Module B if the page must also work on the B-only site.
+Do not xref Module A from here unless that link is only needed on the full site.

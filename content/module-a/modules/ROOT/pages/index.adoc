@@ -1,0 +1,9 @@
+= Module A Home
+:description: Pages in Module A appear only on the full site.
+
+This component is **Module A**.
+
+It is included in the **full site** (`playbook-full.yml`) together with Module B.
+It is **not** included in the Module B-only site (`playbook-b.yml`).
+
+Related content on this site: xref:module-b::index.adoc[Module B home].

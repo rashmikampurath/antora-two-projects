@@ -1,0 +1,19 @@
+{
+  "name": "antora-two-projects",
+  "private": true,
+  "description": "Two Antora sites from shared content: full (module A + B) and B-only",
+  "scripts": {
+    "build": "npm run build:full && npm run build:b",
+    "build:full": "antora playbook-full.yml",
+    "build:b": "antora playbook-b.yml",
+    "preview:full": "npx --yes serve build/site-full -p 5000",
+    "preview:b": "npx --yes serve build/site-b -p 5001"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@antora/cli": "^3.1.14",
+    "@antora/site-generator": "^3.1.14"
+  }
+}

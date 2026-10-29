@@ -1,0 +1,11 @@
+= Module B Home
+:description: Pages in Module B appear on both generated sites.
+
+This component is **Module B**.
+
+It is published on **both** websites:
+
+* the full site (Module A + Module B)
+* the Module B-only site
+
+This page is a good place to keep topics that every audience should see.

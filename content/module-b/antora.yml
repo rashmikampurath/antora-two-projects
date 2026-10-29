@@ -1,0 +1,5 @@
+name: module-b
+title: Module B
+version: ~
+nav:
+- modules/ROOT/nav.adoc
